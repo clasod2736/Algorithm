@@ -5,4 +5,4 @@
 
 Starting my algorithm study as a junior web devloper, I believe this is one of the most solid way to be qualified software engineer.</br>
 The goal is to build a foundation for deeper understanding in coding and making a lean solution under any situation as a problem solver.</br>
-Not just solve the problem and move to next, always try to learn how to improve the _**time complexity(BIG O)**_ in problems.
+Not just pass the test and move to next, always try to learn how to improve the _**time complexity(BIG O)**_ in problems.
