@@ -91,5 +91,6 @@
     }
 
 </div>
-<strong>All the code also can check in the typescript code file.</strong>
+
+<strong>All of the codes you can check in the "ts" file and also check my thoughts and review in NOTES.md</strong>
 
