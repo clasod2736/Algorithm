@@ -37,7 +37,7 @@
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?</div>
 
-<br><h2>Solution</h2>
+<br><h1>Solution</h1>
 <div>
 <p>My first solution was <code>Brute Force</code> with <strong>nested for loop</strong></p>
 <p>Which is fair enough for beginner's first algorithm, without considering <code>Big O</code></p>
