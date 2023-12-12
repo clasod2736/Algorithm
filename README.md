@@ -1,6 +1,6 @@
 # Algorithm Study with Leetcode
-#### Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
-<br>
+I'm Joon Park / Web developer.
+
 <div>
 <h2>Why Do I Start Algorithm Study?</h2>
 
