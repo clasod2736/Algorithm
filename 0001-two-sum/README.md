@@ -92,5 +92,5 @@
 
 </div>
 
-<strong>All of the codes you can check in the "ts" file and also check my thoughts and review in NOTES.md</strong>
+<strong>All of the codes you can check in the .ts file and also check my thoughts in NOTES.md</strong>
 
