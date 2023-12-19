@@ -40,10 +40,9 @@ Palindrome's core method is how to compare all the numbers if giver number is re
    
 **There were 2 ways to do that   
 
-<strong>1. First one is make another array that has reversed index and compare them.</strong>   
-<strong>2. Second one make two pointer start compare from both edge side until the reach to middle.</strong>
-
-
+<code>1. First one is make another array that has reversed index and compare them.</code>   
+<code>2. Second one make two pointer start compare from both edge side until the reach to middle.</code>
+   
 ```
 function isPalindrome(x: number): boolean {
 
@@ -58,7 +57,7 @@ function isPalindrome(x: number): boolean {
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-    // secod solution: I used typical Two Pointers algorithm. Looks more intuitive than first one(just bit better time complexity)
+    // secod solution: I used typical "Two Pointers" algorithm. Looks more intuitive than first one(just bit better time complexity)
     // Big O: O(n)
 
     if (x < 0) {
@@ -87,3 +86,5 @@ function isPalindrome(x: number): boolean {
     return parseInt(x.toString().split("").reverse().join('')) === x
 };
 ```
+
+**All of the codes you can check in the .ts file and also check my thoughts in NOTES.md**
