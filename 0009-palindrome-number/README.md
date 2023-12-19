@@ -31,3 +31,59 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Could you solve it without converting the integer to a string?</div>
+
+<br><br>
+
+<h2>Solution</h2>
+
+Palindrome's core method is how to compare all the numbers if giver number is reversed.   
+   
+**There were 2 ways to do that   
+
+<strong>1. First one is make another array that has reversed index and compare them.</strong>   
+<strong>2. Second one make two pointer start compare from both edge side until the reach to middle.</strong>
+
+
+```
+function isPalindrome(x: number): boolean {
+
+    // first solution: the problem is "reverse" method 'cause reverse method duplicate array and this is unneccesary work(just bit more usage of memory).
+    // Big O: O(n)
+
+    let numString = x.toString();
+    let numStringArray = numString.split('')
+    let reverseNumStringArray = numStringArray.slice().reverse();
+    const result = numStringArray.every((value, index) => value === reverseNumStringArray[index])
+    return result
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+    // secod solution: I used typical Two Pointers algorithm. Looks more intuitive than first one(just bit better time complexity)
+    // Big O: O(n)
+
+    if (x < 0) {
+        return false;
+    }
+
+    const numStringArray = x.toString().split('');
+    let start = 0;
+    let end = numStringArray.length - 1;
+
+    while (start < end) {
+        if (numStringArray[start] !== numStringArray[end]) {
+            return false;
+        }
+        start++;
+        end--;
+    }
+
+    return true;
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+    // most simple solution (from leetcode solution list.): I'ts extremely simple and short but for me, readability is not really good and also performance is not drastically different with others.
+    // Big O: O(n)
+
+    return parseInt(x.toString().split("").reverse().join('')) === x
+};
+```
