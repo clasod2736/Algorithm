@@ -58,7 +58,7 @@
      return
      
 
-    // 2.Two Pointer: BIg O: O(n log n) / Runtime: 50ms
+    // 2.Two Pointer: Big O: O(n log n) / Runtime: 50ms
      const newArray = nums.map((num, index) => [num, index]); // create the copy
      newArray.sort((a, b) => a[0] - b[0])
     
