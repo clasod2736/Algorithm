@@ -57,7 +57,7 @@ function isPalindrome(x: number): boolean {
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-    // secod solution: I used typical "Two Pointers" algorithm. Looks more intuitive than first one(just bit better time complexity)
+    // second solution: I used typical "Two Pointers" algorithm. Looks more intuitive than first one(just bit better time complexity)
     // Big O: O(n)
 
     if (x < 0) {
