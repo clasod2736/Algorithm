@@ -1,10 +1,16 @@
-# Algorithm Study with Leetcode
-I'm Joon Park / Web developer.
-<br><br>
-<div>
-<h2>Why Do I Start Algorithm Study?</h2>
+## Algorithm Study
+Hi, thanks for visiting this my algorithm study repository.
+In this respository, I' recording all about my algorithm and data structure study.
 
-<p>Starting my algorithm study as a junior web devloper, I believe this is one of the most solid way to be qualified software developer</p></br>
-<p>The goal is to build a foundation for deeper understanding in coding and making a lean solution under any situation as a problem solver.</p></br>
-<p>Not just pass the test and move to next, always try to learn how to improve the <strong>Time Complexity(BIG O)</strong> in problems.</p>
-</div>
+1. I'm recording algorithm patterns and sorts study from online course with my understands and insights.
+2. I'm solving leetcode problems with focus on strategies of Big O improvement and thriving problem solving skills.
+
+You can see the two folders, in "study" folder I wrote down all study notes from udemy course and in "leetcode" folder I'm recording my solution and improvements.
+Thanks to visit here again, I hope this study will make me better problem solver.
+
+### Sources
+- JavaScript Algorithms and Data Structures Masterclass by Colt Steel, Udemy
+- Leetcode
+
+---
+more about me  =>  <a href='https://joondev.me'>joondev.me</a>
