@@ -13,7 +13,7 @@ function twoSum(nums: number[], target: number): number[] {
     //Two Pointer: BIg O: O(n log n) / Runtime: 50ms
     // const newArray = nums.map((num, index) => [num, index]); // create the copy
     // newArray.sort((a, b) => a[0] - b[0])
-    
+
     //     let start = 0;
     //     let end = newArray.length -1;
 
@@ -41,3 +41,5 @@ function twoSum(nums: number[], target: number): number[] {
         map.set(num, i)
     }
 };
+
+/////
