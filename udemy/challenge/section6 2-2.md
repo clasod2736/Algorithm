@@ -92,3 +92,9 @@ function isSubsequence(str1, str2) {
   else return false;
 }
 ```
+
+## Key points.
+
+- the core of multiple pointer pettern is where put your points to start.
+- don't use loop more thant one for Big O.
+- you need to choose starting point for pointers on your own.(Step 1 is really important when you are using this pattern.)
