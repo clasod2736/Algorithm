@@ -1,7 +1,7 @@
 ## Algorithm Study
 
 Hi, thanks for visiting my algorithm study repository.
-In this respository, I archiving all about my study of algorithm.
+In this respository, I archiving all process of my algorithm studies.
 
 1. I'm studying algorithm patterns and sorts from online course and adopting those knowledges through solving leetcode problems.
 2. I'm focusing on strategies of Big O improvement and thriving problem solving skills with certain processes.
