@@ -81,7 +81,7 @@ function anagram(str1, str2) {
 anagram("hello", "lolhe");
 ```
 
-//4. solve or simplify
+## 4. solve or simplify
 
 ```javascript
 function validAnagram(str1, str2) {

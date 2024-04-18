@@ -1,6 +1,6 @@
 # 1. Understand Problem
 
-- need to get homany numbers in the array, not length.
+- need to get how many numbers in the array, not length.
 - need to use multiple pointers
 - declare just one obj for result
 - in this case array is sorted, but we could use this patter for unsorted array as well.
